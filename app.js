@@ -30,7 +30,7 @@ for (let i = 0; i <= input; i++) {
 
 //validor de nota entre 0 e 10
 let nota = prompt("Digite uma nota entre 0-10")
-for (; nota < 0 || nota > 10; ) {
+while (nota < 0 || nota > 10) {
     alert('Nota invalida')
     nota = prompt("Digite uma nota entre 0-10")
     
